@@ -1,0 +1,24 @@
+.Todos {
+  list-style: none;
+  padding: 0;
+}
+
+.Todos >li {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.Note {
+  color: #1e1e1e;
+  font-size: .9rem;
+}
+
+.Note > a {
+  text-decoration: none;
+}
+
+.Note a > code {
+  background-color: #efefef;
+  color: #dd0000;
+  padding: .15rem .25rem;
+}
